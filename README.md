@@ -15,6 +15,19 @@ The CPLD and the video DAC have 0.5mm fine pitched pins.
 On the board there are some SMD1206 resistor and ferrit bead arrays.
 However, there are some awesome shops out there selling the boards for a great price.
 
+## Table of Contents
+
+- [Checklist](https://github.com/borti4938/n64rgb_pcb#checklist-how-to-build-the-project)
+- [Assembly](https://github.com/borti4938/n64rgb_pcb#assembly)
+- [Installation](https://github.com/borti4938/n64rgb_pcb#installation)
+  - [1. Open the Console](https://github.com/borti4938/n64rgb_pcb#1-open-the-console)
+  - [2. Optional Steps](https://github.com/borti4938/n64rgb_pcb#2-optional-steps)
+  - [3. Solder Work](https://github.com/borti4938/n64rgb_pcb#3-solder-work)
+  - [4. Mount the N64 Advanced Modding PCB](https://github.com/borti4938/n64rgb_pcb#4-mount-the-n64-advanced-modding-pcb)
+  - [5. Finish the Work](https://github.com/borti4938/n64rgb_pcb#5-finish-the-work)
+- [Jumper Setup](https://github.com/borti4938/n64rgb_pcb#jumper-setup)
+- [Cable Setup](https://github.com/borti4938/n64rgb_pcb#cable-setup)
+
 ## Checklist: How to build the project
 
 - Use PCB files (either [EAGLE-PCB design file](./n64rgbv2.1.kicad_pcb) or [Gerber files](./Gerber/)) to order your own PCB or simply use the [shared project(s) on OSHPark](https://oshpark.com/profiles/borti4938)
@@ -37,6 +50,11 @@ If you have all components available, you can start assembly your board.
 The documentation provides assembly sheets ([top](./doc/n64rgb2.1_assembly_sheet_top.pdf) and [bottom](./doc/1_assembly_sheet_bot.pdf), which you can print out.
 Together with the [BOM](./doc/BOM_n64rgbv2.1.xlsx) it is just a matter of time and effort to assembly everything.
 Alternatively you can also use the [interactive BOM](./doc/ibom.html).
+
+Please note that the assembly (and component sourcing) depends on which kind of CPLD family you use.
+Supported are Max II and Max V CLPDs.
+- If you use a Max II CPLD, you have to use FB3 and leave U4, C41 and C42 unpopulated.
+- If you use a Max V CPLD, you have to use U4, C41 and C42 and leave FB3 unpopulated.
 
 If you populate J3, which is the JTAG connector, please short the pins such that they are flush at the bottom side.
 This reduces the risk to short on of these pins with the heat sink (where the PCB will be mounted).
