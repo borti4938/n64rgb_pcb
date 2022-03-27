@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ADV7125)(type Legacy)(uri ${KIPRJMOD}/lib/ADV7125.lib)(options "")(descr ""))
+  (lib (name TSH122ICT)(type Legacy)(uri ${KIPRJMOD}/lib/TSH122ICT.lib)(options "")(descr ""))
+  (lib (name n64rgbv2.1-rescue)(type Legacy)(uri ${KIPRJMOD}/n64rgbv2.1-rescue.lib)(options "")(descr ""))
+)
