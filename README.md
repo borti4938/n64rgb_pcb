@@ -366,9 +366,9 @@ _J3_ is the JTAG connector.
 
 | Signal | Pin MultiOut | Pin SCART | Ref. GND in SCART | Cinch Plug | Note |
 |:-------|:-------------|:----------|:------------------|:-----------|:-----|
-| Red / Pr | 1 | 15 | 13 | Red plug | Using a 220uF cap in series is possible |
-| Green / Y | 2 | 11 | 9 | Green plug | Using a 220uF cap in series is possible |
-| Blue / Pb | 4 | 7 | 5 | Blue plug | Using a 220uF cap in series is possible |
+| Red / Pr | 1 | 15 | 13 | Red plug | Using a 220uF cap in series is possible, yet not required |
+| Green / Y | 2 | 11 | 9 | Green plug | Using a 220uF cap in series is possible, yet not required |
+| Blue / Pb | 4 | 7 | 5 | Blue plug | Using a 220uF cap in series is possible, yet not required |
 | Sync | 3, 7 or 9 | 20 | 17 | _not needed_ | Pin: See installation, Cable: see notes below |
 | GND | 5, 6 | 4,5,9,13,17,18,21 | | Outer ring of each plug | Pin 21 @ SCART: outer shield |
 | +5V | 10 | 16 | 18 | _not needed_ | SCART: use a 180ohm resistor in series |
