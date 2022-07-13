@@ -30,7 +30,7 @@ However, there are some awesome shops out there selling the boards for a great p
 
 ## Checklist: How to build the project
 
-- Use PCB files (either [EAGLE-PCB design file](./n64rgbv2.1.kicad_pcb) or [Gerber files](./Gerber/)) to order your own PCB or simply use the [shared project(s) on OSHPark](https://oshpark.com/profiles/borti4938)
+- Use PCB files (either [KiCad-PCB design file](./n64rgbv2.1.kicad_pcb) or [Gerber files](./Gerber/)) to order your own PCB or simply use the [shared project(s) on OSHPark](https://oshpark.com/profiles/borti4938)
 - If you paln to use solder paste, do not forget to order a stencil for top and bottom, too
 - Source the components you need, e.g. from Mouser or Digikey.  
   The BOM is available in [here](./doc/BOM_n64rgbv2.1.xlsx).
